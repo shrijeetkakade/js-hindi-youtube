@@ -27,6 +27,9 @@ let state;
 
 
 
-// object
+// typeof of null is object
+// typeof of undefined is undefined
 
 console.log(typeof false );
+console.log(typeof null );
+console.log(typeof undefined)
