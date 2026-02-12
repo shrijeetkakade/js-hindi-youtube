@@ -1,3 +1,4 @@
+/*
 let score = "33"
 
 console.log(typeof score )
@@ -34,4 +35,24 @@ let any = true;
 let wha = String(someno)
 let wh = String(any)
 
-console.table({wh, wha})
+console.table({wh, wha})     
+*/
+
+// ********************operations***********************
+
+let value = 3
+let negvalue = -value
+
+//console.log(negvalue)
+
+// basic maths opeations are all applicable in js 
+
+let str1 = "shrijeet"
+let str2 = " kakade"
+console.log(str1+str2) // subtract nahi hota sirf add hota hain
+
+console.log("1"+2) // bydefault converts both elements into string // 12
+console.log(1+"2") // 12
+console.log("1"+2+2) // 122
+
+console.log(1+2+"2") // 32
