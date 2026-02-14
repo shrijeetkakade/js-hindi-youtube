@@ -34,7 +34,7 @@ let userEmail;
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
-console.log(id === anotherId);
+//console.log(id === anotherId);
 
 // const bigNumber = 3456543576654356754n
 
@@ -54,7 +54,41 @@ const myFunction = function(){
     console.log("Hello world");
 }
 
-console.log(typeof anotherId);
+//console.log(typeof anotherId);
 myFunction();
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// memories are of two types 
+// 1. stack memory 
+// 2. heap memory
+
+
+// wherever there is primitive datatype there stack memory is used 
+// while heap memory is used in non primitive type
+
+// whenever stack memory is used whatever the variable you have declared you get the copy of it 
+// and in heap memory you get the reference of orignal value so jo bhi change karenge orignal value mein change hoga
+
+let myname = "oggy"
+
+let broname = myname
+
+broname = "Jack"
+
+console.log(broname);
+
+let user1 = {
+    email : "oggy@gmail.com" ,
+    upi : "oggy1234"
+}
+
+let user2 = user1;
+
+user2.email = "jack.com"
+
+console.table([user1]);
