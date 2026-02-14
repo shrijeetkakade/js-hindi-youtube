@@ -46,7 +46,7 @@ let negvalue = -value
 //console.log(negvalue)
 
 // basic maths opeations are all applicable in js 
-
+/*
 let str1 = "shrijeet"
 let str2 = " kakade"
 console.log(str1+str2) // subtract nahi hota sirf add hota hain
@@ -56,3 +56,14 @@ console.log(1+"2") // 12
 console.log("1"+2+2) // 122
 
 console.log(1+2+"2") // 32
+
+console.log(3+4*5%2) // these types of code are for exams but in corporate these types of messy codes are not preferred instead use paranthesis
+*/
+// console.log(+true); // output 1
+// console.log(+""); // output 0
+
+// coding mein readability sabse jaruri chiz hain
+
+let gamecount = 100
+gamecount++
+console.log(gamecount);
