@@ -67,3 +67,5 @@ console.log(3+4*5%2) // these types of code are for exams but in corporate these
 let gamecount = 100
 gamecount++
 console.log(gamecount);
+
+console.log(100.3*192.4);
