@@ -40,3 +40,9 @@ console.log(Math.max(2,3,5,1,4,434))
 
 console.log((Math.random()*10000).toFixed(0)) // gives a random value between 0 t0 1 
 // Math.random() is generally used to generate OTP
+
+console.log(Math.floor(Math.random()*10))
+const min = 10;
+const max = 20;
+
+console.log(Math.floor(Math.random() * (max - min + 1) + min ))
