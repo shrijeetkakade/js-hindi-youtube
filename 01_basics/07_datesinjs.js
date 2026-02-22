@@ -50,3 +50,4 @@ newdate.toLocaleString('default',{
 })
 
 console.log(newdate.toLocaleString('default', { weekday: 'long' }));
+// doneeee
