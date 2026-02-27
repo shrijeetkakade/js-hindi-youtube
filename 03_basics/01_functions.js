@@ -40,5 +40,14 @@ const whathappen = loginusermessage("shrijeet");
    return num1
  }
 
- console.log(calculatecartprice(200,400,500));
- ///////
+//  console.log(calculatecartprice(200,400,500));
+
+ const user ={
+  username:"hitesh",
+  price:199
+ }
+ function handleobject(anyobject){
+  console.log(`username is ${anyobject.username} and price is ${anyobject.price}`);
+ }
+
+ console.log(handleobject(user)) 
